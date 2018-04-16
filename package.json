@@ -1,25 +1,25 @@
 {
-  "name": "scion-cli",
-  "version": "0.2.0",
+  "name": "bici-cli",
+  "version": "0.1.0",
   "description": "A simple CLI for creating your projects",
   "bin": {
-    "scion": "bin/scion"
+    "scion": "bin/bici"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrainlau/scion.git"
+    "url": "git+https://github.com/newbby123/BiciCLI.git"
   },
   "keywords": [
-    "scion",
+    "bici",
     "cli",
     "es6"
   ],
-  "author": "Jrain Lau",
+  "author": "newbby123",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jrainlau/scion/issues"
+    "url": "https://github.com/newbby123/BiciCLI/issues"
   },
-  "homepage": "https://github.com/jrainlau/scion#readme",
+  "homepage": "https://github.com/newbby123/BiciCLI#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "cli-table": "^0.3.1",
