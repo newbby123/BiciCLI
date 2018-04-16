@@ -1,25 +1,25 @@
-![Scion Logo](./logo.png)
+![Bici-CLI Logo](./logo.png)
 
-# SCION
+# BiCi-CLI
 A light tool to generate projects in an easy way.
 
 # Installation
 ```
-npm install scion-cli -g
+npm install git+ssh://git@github.com:newbby123/BiciCLI.git --save
 ```
 or
 ```
-git clone https://github.com/jrainlau/scion.git
+git clone https://github.com/newbby123/BiciCLI.git
 
-cd scion && npm install
+cd BiciCLI && npm install
 
 npm link
 ```
 
 # Usage
-Open your terminal and type `scion` or `scion -h` , you'll see the help infomation below:
+Open your terminal and type `bici` or `bici -h` , you'll see the help infomation below:
 ```
-  Usage: scion <command>
+  Usage: bici <command>
 
 
   Commands:
@@ -28,6 +28,7 @@ Open your terminal and type `scion` or `scion -h` , you'll see the help infomati
     list|l     List all the templates
     init|i     Generate a new project
     delete|d   Delete a template
+    rn-app     generate a bici react native app which is framed
 
   Options:
 
@@ -38,10 +39,15 @@ Open your terminal and type `scion` or `scion -h` , you'll see the help infomati
 > Note that if you are using `MacOS`, `sudo` was required while using commands `add` and `delete`.
 
 # Commands
+
+### rn-app
+This command would help you create a framed Bici react native app
+
+
 ### add | a
-This command would help you to add a new template to the `templates.json`, which will be used by `Scion` to generate projects.
+This command would help you to add a new template to the `templates.json`, which will be used by `Bici-CLI` to generate projects.
 ```
-$ scion add
+$ bici add
 
 ? Set the custom name of the template: my-first-template
 ? Owner/name of the template: jrainlau/scion
@@ -53,12 +59,12 @@ $ scion add
 └───────────────────┴────────────────┴────────┘
 ✔ New template has been added successfully!
 ```
-`Scion` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `Scion`.
+`Bici-CLI` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `Bici-CLI`.
 
 ### list | l
 It shows you the templates list.
 ```
-$ scion list
+$ bici list
 
 ┌────────────────────┬────────────────┬────────┐
 │ Template Name      │ Owner/Name     │ Branch │
@@ -72,7 +78,7 @@ $ scion list
 ### init | i
 After adding new templates, you could use this command to generate your own project by choosing template.
 ```
-$ scion init
+$ bici init
 
 ? Template name: my-first-template
 ? Project name: my-project
@@ -87,7 +93,7 @@ It's easy, right?
 ### delete | d
 To delete a template, you could use this command:
 ```
-$ scion delete
+$ bici delete
 
 ? Which template you want to delete? my-second-template
 ┌───────────────────┬────────────────┬────────┐
@@ -99,10 +105,10 @@ $ scion delete
 ```
 
 # Template
-The most important part of Scion is `template`. All templates' infomation were list in the `templates.json`.
+The most important part of Bici-CLI is `template`. All templates' infomation were list in the `templates.json`.
 A template means a project sample, which has a simple or complex file structure.
 
-You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into Scion's `templates.json`.
+You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into Bici-CLI's `templates.json`.
 
 # License
 MIT.

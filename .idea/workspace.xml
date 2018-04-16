@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cc9ffaa-a797-4863-a5d4-8577e85a121f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/createApp.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/delete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/bici" afterPath="$PROJECT_DIR$/bin/bici" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/rn-app.js" afterPath="$PROJECT_DIR$/commands/rn-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +30,8 @@
       <file leaf-file-name="bici" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/bici">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="342">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -29,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,62 +50,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="422">
+              <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.js">
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/delete.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commands/add.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1523871746774" expanded="true" signature="51825:51831" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="51845:52059" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="52017:52053" ph="{&quot;wrap-fn&quot;: &quot;0.1.5&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="52077:52243" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="52264:52460" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="52478:52644" ph="{&quot;version&quot;: &quot;0.0.3&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="52661:52876" ph="{&quot;version&quot;: &quot;0.1.5&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="52839:52870" ph="{&quot;co&quot;: &quot;3.1.0&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="52892:53054" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="53069:53229" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="53244:53577" ph="{&quot;version&quot;: &quot;3.10.0&quot;...}" />
+                <marker date="1523871746774" expanded="true" signature="53444:53571" ph="{&quot;camelcase&quot;: &quot;1.2.1&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +86,18 @@
       <file leaf-file-name="rn-app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commands/rn-app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="486">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createApp.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/createApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -121,7 +116,12 @@
     <findStrings>
       <find>place</find>
       <find>spinner</find>
+      <find>scion</find>
+      <find>Bici</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Bici-CLI</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,9 +135,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/commands/init.js" />
-        <option value="$PROJECT_DIR$/commands/rn-app.js" />
-        <option value="$PROJECT_DIR$/bin/bici" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/bin/bici" />
+        <option value="$PROJECT_DIR$/commands/rn-app.js" />
+        <option value="$PROJECT_DIR$/utils/createApp.js" />
       </list>
     </option>
   </component>
@@ -194,6 +196,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BiciCLI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BiciCLI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -226,7 +242,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyTest" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -642,16 +658,15 @@
       <workItem from="1523255482222" duration="4680000" />
       <workItem from="1523260213582" duration="647000" />
       <workItem from="1523322272953" duration="2322000" />
-      <workItem from="1523842800089" duration="798000" />
+      <workItem from="1523842800089" duration="16235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8447000" />
+    <option name="totallyTimeSpent" value="23884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -930,38 +945,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands/add.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/rn-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -981,18 +969,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1523871746774" expanded="true" signature="51825:51831" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="51845:52059" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="52017:52053" ph="{&quot;wrap-fn&quot;: &quot;0.1.5&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="52077:52243" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="52264:52460" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="52478:52644" ph="{&quot;version&quot;: &quot;0.0.3&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="52661:52876" ph="{&quot;version&quot;: &quot;0.1.5&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="52839:52870" ph="{&quot;co&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="52892:53054" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="53069:53229" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="53244:53577" ph="{&quot;version&quot;: &quot;3.10.0&quot;...}" />
+            <marker date="1523871746774" expanded="true" signature="53444:53571" ph="{&quot;camelcase&quot;: &quot;1.2.1&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bin/bici">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="422">
+          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/rn-app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/createApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="67" column="27" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="27" />
           <folding />
         </state>
       </provider>

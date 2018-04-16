@@ -1,20 +1,28 @@
 /**
  * @FILTER react-native app
  */
-const download = require('download-git-repo')
+'use strict'
+
 const chalk = require('chalk')
-const ora = require('ora')
+const createApp = require('../utils/createApp')
 
-module.exports = (project) => {
-  const spinner = ora('Downloading template...')
+module.exports = (projectName) => {
+  // 检查用户输入项目名称是否为空，为空则输出提示信息，并退出进程
+  if (typeof projectName === 'undefined') {
+    console.error('Please specify the project directory:')
+    console.log(
+      `  ${chalk.cyan(program.name())} ${chalk.green('<project-directory>')}`
+    )
+    console.log()
+    console.log('For example:')
+    console.log(`  ${chalk.cyan(program.name())} ${chalk.green('my-react-app')}`)
+    console.log()
+    console.log(
+      `Run ${chalk.cyan(`${program.name()} --help`)} to see all options.`
+    )
 
-  spinner.start()
+    process.exit(1)
+  }
 
-  download(`jaggerwang/zqc-app-demo#master`, `.//${project}`, (err) => {
-    if (err) {
-      console.log(chalk.red(err))
-      process.exit()
-    }
-    spinner.stop()
-  console.log(chalk.green('New project has been initialized successfully!'))
-})}
+  createApp(projectName)
+}
