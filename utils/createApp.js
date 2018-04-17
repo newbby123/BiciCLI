@@ -113,7 +113,6 @@ function printValidationResults(results) {
   }
 }
 
-
 // todo 是否在本地执行依赖包安装
 // function userHasYarn() {
 //   try {
