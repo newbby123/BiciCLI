@@ -1,9 +1,9 @@
 {
   "name": "bici-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple CLI for creating your projects",
   "bin": {
-    "scion": "bin/bici"
+    "bici": "bin/bici"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "es6"
   ],
   "author": "newbby123",
-  "license": "MIT",
+  "license": "BICI",
   "bugs": {
     "url": "https://github.com/newbby123/BiciCLI/issues"
   },

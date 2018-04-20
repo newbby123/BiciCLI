@@ -40,7 +40,7 @@ Open your terminal and type `bici` or `bici -h` , you'll see the help infomation
 This command would help you create a framed Bici react native app
 
 # License
-MIT.
+BICI.
 
 
 

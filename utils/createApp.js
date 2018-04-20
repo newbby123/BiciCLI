@@ -16,16 +16,16 @@ module.exports = (name) => {
   const appName = path.basename(root);
 
   checkAppName(appName)
-  if (pathExists(appName)) {
+  if (!pathExists(appName)) {
     fs.mkdir(root)
-  } else if (!isSafeToCreateProjectIn(root)) {
+  } else if (!isSafeToCreateProjectIn(root, appName)) {
     process.exit(1)
   }
   init(root)
 }
 
 function checkAppName(appName) {
-  // 使用 validateProjectName 检查包名是否合法返回结果，这个validateProjectName是外部依赖的引用，见下面说明
+  // 使用 validateProjectName 检查包名是否合法返回结果，validateProjectName是npm提供的一个包名检测工具，使用如下
   const validationResult = validateProjectName(appName);
   // 如果对象中有错继续，这里就是外部依赖的具体用法
   if (!validationResult.validForNewPackages) {
@@ -49,7 +49,7 @@ function checkAppName(appName) {
     'react-native'
   ].sort();
 
-  // 如果项目使用了这几个个名称都会报错，而且退出进程
+  // 如果项目使用了这几个名称都会报错，而且退出进程
   if (dependencies.indexOf(appName) >= 0) {
     console.error(
       chalk.red(
@@ -66,7 +66,7 @@ function checkAppName(appName) {
 }
 
 // 除了包含以下文件外，在此目录中创建项目是不安全的
-function isSafeToCreateProjectIn(root) {
+function isSafeToCreateProjectIn(root, appName) {
   const validFiles = ['.DS_Store', 'Thumbs.db', '.git', '.gitignore', 'README.md', 'LICENSE'];
   const conflicts = fs.readdirSync(root).filter(file => !validFiles.includes(file))
 
@@ -75,7 +75,7 @@ function isSafeToCreateProjectIn(root) {
   }
   // 否则这个文件夹就是不安全的，并且挨着打印存在哪些不安全的文件
   console.log(
-    `The directory ${chalk.green(name)} contains files that could conflict:`
+    `The directory ${chalk.green(appName)} contains files that could conflict:`
   );
   console.log();
   for (const file of conflicts) {
