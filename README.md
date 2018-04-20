@@ -1,11 +1,10 @@
-![Bici-CLI Logo](./logo.png)
 
 # BiCi-CLI
 A light tool to generate projects in an easy way.
 
 # Installation
 ```
-npm install git+ssh://git@github.com:newbby123/BiciCLI.git --save
+npm install bici-cli -g
 ```
 or
 ```
