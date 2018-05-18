@@ -16,7 +16,7 @@ module.exports = (name) => {
   const appName = path.basename(root);
 
   checkAppName(appName)
-  if (!pathExists(appName)) {
+  if (!pathExists.sync(appName)) {
     fs.mkdir(root)
   } else if (!isSafeToCreateProjectIn(root, appName)) {
     process.exit(1)
