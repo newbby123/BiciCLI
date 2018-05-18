@@ -91,7 +91,7 @@ function isSafeToCreateProjectIn(root, appName) {
 
 
 function init(root) {
-  const template = 'jaggerwang/zqc-app-demo#master'
+  const template = 'newbby123/bici-base-app#master'
   const spinner = ora('Downloading template...')
   spinner.start()
 
